@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27416" started-at="2018-02-18T16:14:08Z" finished-at="2018-02-18T16:14:36Z">
+  <suite name="Default suite" duration-ms="71459" started-at="2018-02-24T17:46:56Z" finished-at="2018-02-24T17:48:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27416" started-at="2018-02-18T16:14:08Z" finished-at="2018-02-18T16:14:36Z">
-      <class name="Scripts.SelectCompanyTest">
-        <test-method status="PASS" signature="openApp(java.lang.String)[pri:0, instance:Scripts.SelectCompanyTest@3043fe0e]" name="openApp" is-config="true" duration-ms="9223" started-at="2018-02-18T21:44:08Z" finished-at="2018-02-18T21:44:18Z">
+    <test name="Default test" duration-ms="71459" started-at="2018-02-24T17:46:56Z" finished-at="2018-02-24T17:48:07Z">
+      <class name="Scripts.AddHoliday_Test">
+        <test-method status="PASS" signature="openApp(java.lang.String)[pri:0, instance:Scripts.AddHoliday_Test@3043fe0e]" name="openApp" is-config="true" duration-ms="10790" started-at="2018-02-24T23:16:56Z" finished-at="2018-02-24T23:17:07Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="SelectCompanyTest()[pri:0, instance:Scripts.SelectCompanyTest@3043fe0e]" name="SelectCompanyTest" duration-ms="18163" started-at="2018-02-18T21:44:18Z" finished-at="2018-02-18T21:44:36Z">
+        <test-method status="PASS" signature="test_AddHoliday_Test()[pri:0, instance:Scripts.AddHoliday_Test@3043fe0e]" name="test_AddHoliday_Test" duration-ms="60636" started-at="2018-02-24T23:17:07Z" finished-at="2018-02-24T23:18:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SelectCompanyTest -->
-      </class> <!-- Scripts.SelectCompanyTest -->
+        </test-method> <!-- test_AddHoliday_Test -->
+      </class> <!-- Scripts.AddHoliday_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

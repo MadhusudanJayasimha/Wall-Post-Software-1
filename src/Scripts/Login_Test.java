@@ -30,8 +30,7 @@ public class Login_Test  extends BaseTest
 			
 		}
 		SelectCompany_Page sp = new SelectCompany_Page(driver);
-		sp.selectRealEstate();
-		/*sp.logout();*/
+		sp.logout();
 	
 		}
 		catch(Exception e)

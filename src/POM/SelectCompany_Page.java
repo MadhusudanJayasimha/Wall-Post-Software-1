@@ -28,6 +28,9 @@ public class SelectCompany_Page
 	@FindBy(xpath="//span[.='RealEstate Free Trial-Test']")
 	private WebElement realEstate;
 	
+	@FindBy(xpath="//input[@value='Continue']")
+	private WebElement continueBtn;
+	
 	@FindBy(partialLinkText="Logout")
 	private WebElement logOut;
 	
@@ -43,6 +46,7 @@ public class SelectCompany_Page
 		selectCompany.click();
 		typeText.sendKeys("RealEstate Free Trial-Test");
 		typeText.sendKeys(Keys.ENTER);
+		continueBtn.click();
 		
 		
 	}
