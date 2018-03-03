@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="71459" started-at="2018-02-24T17:46:56Z" finished-at="2018-02-24T17:48:07Z">
+  <suite name="Default suite" duration-ms="45971" started-at="2018-03-03T10:53:51Z" finished-at="2018-03-03T10:54:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="71459" started-at="2018-02-24T17:46:56Z" finished-at="2018-02-24T17:48:07Z">
-      <class name="Scripts.AddHoliday_Test">
-        <test-method status="PASS" signature="openApp(java.lang.String)[pri:0, instance:Scripts.AddHoliday_Test@3043fe0e]" name="openApp" is-config="true" duration-ms="10790" started-at="2018-02-24T23:16:56Z" finished-at="2018-02-24T23:17:07Z">
+    <test name="Default test" duration-ms="45971" started-at="2018-03-03T10:53:51Z" finished-at="2018-03-03T10:54:37Z">
+      <class name="Scripts.Lead_Test">
+        <test-method status="PASS" signature="openApp(java.lang.String)[pri:0, instance:Scripts.Lead_Test@3043fe0e]" name="openApp" is-config="true" duration-ms="8697" started-at="2018-03-03T16:23:51Z" finished-at="2018-03-03T16:24:00Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="test_AddHoliday_Test()[pri:0, instance:Scripts.AddHoliday_Test@3043fe0e]" name="test_AddHoliday_Test" duration-ms="60636" started-at="2018-02-24T23:17:07Z" finished-at="2018-02-24T23:18:07Z">
+        <test-method status="PASS" signature="test_addLead()[pri:0, instance:Scripts.Lead_Test@3043fe0e]" name="test_addLead" duration-ms="37244" started-at="2018-03-03T16:24:00Z" finished-at="2018-03-03T16:24:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_AddHoliday_Test -->
-      </class> <!-- Scripts.AddHoliday_Test -->
+        </test-method> <!-- test_addLead -->
+      </class> <!-- Scripts.Lead_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

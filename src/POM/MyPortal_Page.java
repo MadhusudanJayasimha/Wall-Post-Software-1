@@ -10,6 +10,12 @@ public class MyPortal_Page
 	@FindBy(xpath="//li[@title='HR']")
 	private WebElement hr;
 	
+	@FindBy(xpath="(//a[@class='dropdown-toggle'])[1]")
+	private WebElement modules;
+	
+	@FindBy(xpath="//i[@class='fa fa-fw fa-line-chart fa-3x themecolor-font-sales ']")
+	private WebElement crm;
+	
 	public MyPortal_Page(WebDriver driver)
 	{
 		PageFactory.initElements(driver,this);
@@ -18,6 +24,17 @@ public class MyPortal_Page
 	public void gotoHR()
 	{
 		hr.click();
+	}
+	
+	public void gotoModules() throws Exception
+	{
+		Thread.sleep(10000);
+		modules.click();
+	}
+	
+	public void gotoCRM()
+	{
+		crm.click();
 	}
 
 }
