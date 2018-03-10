@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45971" started-at="2018-03-03T10:53:51Z" finished-at="2018-03-03T10:54:37Z">
+  <suite name="Suite" duration-ms="29732" started-at="2018-03-04T17:25:16Z" finished-at="2018-03-04T17:25:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="45971" started-at="2018-03-03T10:53:51Z" finished-at="2018-03-03T10:54:37Z">
-      <class name="Scripts.Lead_Test">
-        <test-method status="PASS" signature="openApp(java.lang.String)[pri:0, instance:Scripts.Lead_Test@3043fe0e]" name="openApp" is-config="true" duration-ms="8697" started-at="2018-03-03T16:23:51Z" finished-at="2018-03-03T16:24:00Z">
+    <test name="Test" duration-ms="29732" started-at="2018-03-04T17:25:16Z" finished-at="2018-03-04T17:25:46Z">
+      <class name="Scripts.Login_Test">
+        <test-method status="PASS" signature="openApp(java.lang.String)[pri:0, instance:Scripts.Login_Test@77caeb3e]" name="openApp" is-config="true" duration-ms="10291" started-at="2018-03-04T22:55:16Z" finished-at="2018-03-04T22:55:26Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="test_addLead()[pri:0, instance:Scripts.Lead_Test@3043fe0e]" name="test_addLead" duration-ms="37244" started-at="2018-03-03T16:24:00Z" finished-at="2018-03-03T16:24:37Z">
+        <test-method status="PASS" signature="test_Login_Test()[pri:0, instance:Scripts.Login_Test@77caeb3e]" name="test_Login_Test" duration-ms="19426" started-at="2018-03-04T22:55:26Z" finished-at="2018-03-04T22:55:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_addLead -->
-      </class> <!-- Scripts.Lead_Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test_Login_Test -->
+      </class> <!-- Scripts.Login_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

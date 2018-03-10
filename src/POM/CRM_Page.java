@@ -44,26 +44,39 @@ public class CRM_Page
 	@FindBy(xpath ="//button[.='Save  ']")
 	private WebElement saveBtn;
 	
-	/*@FindBy(name="Lead[]")
-	private WebElement leadName;
+	@FindBy(partialLinkText="+   Appointment")
+	private WebElement appointment;
 	
-	@FindBy(name="Lead[]")
-	private WebElement leadName;
+	@FindBy(partialLinkText="//input[@id='searchBoxContacts']")
+	private WebElement enterLeadorCustomerName;
 	
-	@FindBy(name="Lead[]")
-	private WebElement leadName;
+	@FindBy(name="//span[.='Choose Language']")
+	private WebElement chooseLanguage;
 	
-	@FindBy(name="Lead[]")
-	private WebElement leadName;
+	@FindBy(xpath="//label[.=' Spanish']")
+	private WebElement spanish;
 	
-	@FindBy(name="Lead[]")
-	private WebElement leadName;
+	@FindBy(xpath="//label[.=' Croatia']")
+	private WebElement croatia;
 	
-	@FindBy(name="Lead[]")
-	private WebElement leadName;
+	@FindBy(xpath="//label[.=' Japanese']")
+	private WebElement japanese;
 	
-	@FindBy(name="Lead[]")
-	private WebElement leadName;*/
+	@FindBy(xpath="//input[@id='MeetingSchedule_date']")
+	private WebElement appointmentDate;
+	
+	@FindBy(xpath="//option[.='[Please Select]']")
+	private WebElement selectSalesStaff;
+	
+	@FindBy(xpath="//option[.='WallPost Admin  admin']")
+	private WebElement selectSalesStaffWallPostAdmin;
+	
+	@FindBy(id="starts_time")
+	private WebElement starts_Time;
+	
+	@FindBy(id="ends_time")
+	private WebElement ends_Time;
+	
 	
 	
 	
