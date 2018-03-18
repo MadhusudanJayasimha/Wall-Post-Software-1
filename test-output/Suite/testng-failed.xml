@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="TestChrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Scripts.Lead_Test">
+        <methods>
+          <include name="openApp"/>
+          <include name="test_addLead"/>
+        </methods>
+      </class> <!-- Scripts.Lead_Test -->
+      <class name="Scripts.AddHoliday_Test">
+        <methods>
+          <include name="openApp"/>
+          <include name="test_AddHoliday_Test"/>
+        </methods>
+      </class> <!-- Scripts.AddHoliday_Test -->
+      <class name="Scripts.Login_Test">
+        <methods>
+          <include name="test_Login_Test"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Scripts.Login_Test -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+  <test name="TestFF(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Scripts.Lead_Test">
+        <methods>
+          <include name="openApp"/>
+          <include name="test_addLead"/>
+        </methods>
+      </class> <!-- Scripts.Lead_Test -->
+      <class name="Scripts.AddHoliday_Test">
+        <methods>
+          <include name="openApp"/>
+          <include name="test_AddHoliday_Test"/>
+        </methods>
+      </class> <!-- Scripts.AddHoliday_Test -->
+      <class name="Scripts.Login_Test">
+        <methods>
+          <include name="test_Login_Test"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Scripts.Login_Test -->
+    </classes>
+  </test> <!-- TestFF(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -6,7 +6,7 @@
       <class name="Scripts.AddTask_Test">
         <methods>
           <include name="openApp"/>
-          <include name="test_AddTask_Test" invocation-numbers="0"/>
+          <include name="test_AddTask_Test" invocation-numbers="0 1 2 3"/>
         </methods>
       </class> <!-- Scripts.AddTask_Test -->
     </classes>
