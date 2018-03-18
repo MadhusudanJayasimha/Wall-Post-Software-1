@@ -1,11 +1,16 @@
 package Generic;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -24,21 +29,28 @@ public class BaseTest implements IAutoConst
 	}
 	@Parameters({"browser"})
 	@BeforeClass(alwaysRun=true)
-	public void openApp(@Optional("chrome")String browser)
+	public void openApp(@Optional("chrome")String browser) throws MalformedURLException
 	{
+		URL remote = new URL("http://localhost:4444/wd/hub");
+		DesiredCapabilities dc	;
 		if(browser.equalsIgnoreCase("chrome"))
 		{
 			driver = new ChromeDriver();
+			/*dc=DesiredCapabilities.chrome();
+			dc.setPlatform(Platform.WINDOWS);*/
 		}
 		else if(browser.equalsIgnoreCase("firefox"))
 		{
 			driver = new FirefoxDriver();
+		/*	dc = DesiredCapabilities.firefox();
+			dc.setPlatform(Platform.WINDOWS);*/
 		}
 		else if(browser.equalsIgnoreCase("ie"))
 		{
 			driver = new InternetExplorerDriver();
 		}
 		
+		/*driver=new RemoteWebDriver(remote,dc);*/
 		String url = AUL.getProperty(PROPERTIES_PATH,"URL");
 		driver.get(url);
 		driver.manage().window().maximize();

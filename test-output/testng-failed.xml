@@ -3,12 +3,12 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Scripts.Lead_Test">
+      <class name="Scripts.AddTask_Test">
         <methods>
           <include name="openApp"/>
-          <include name="test_addLead"/>
+          <include name="test_AddTask_Test" invocation-numbers="0"/>
         </methods>
-      </class> <!-- Scripts.Lead_Test -->
+      </class> <!-- Scripts.AddTask_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

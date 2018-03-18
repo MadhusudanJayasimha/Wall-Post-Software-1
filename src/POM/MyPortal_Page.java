@@ -16,6 +16,9 @@ public class MyPortal_Page
 	@FindBy(xpath="//i[@class='fa fa-fw fa-line-chart fa-3x themecolor-font-sales ']")
 	private WebElement crm;
 	
+	@FindBy(xpath="//i[@class='fa fa-fw fa-tasks fa-3x themecolor-font-task  ']")
+	private WebElement task;
+	
 	public MyPortal_Page(WebDriver driver)
 	{
 		PageFactory.initElements(driver,this);
@@ -35,6 +38,11 @@ public class MyPortal_Page
 	public void gotoCRM()
 	{
 		crm.click();
+	}
+	
+	public void gotoTask()
+	{
+		task.click();
 	}
 
 }
